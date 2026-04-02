@@ -60,6 +60,7 @@ Build : Construction de l'image Docker multi-stage.
 Release : Génération automatique du changelog basée sur les commits Angular.
 
 🤝 Contribution & Standards de Code
+
 Pour maintenir une base de code saine, nous suivons la Convention de Commits Angular.
 
 Format des Messages
@@ -84,11 +85,13 @@ chore : Maintenance (build, outils, dépendances).
 
 Exemple : feat(chores): add automated points redistribution system
 
+⚙️ Méthodologie : Nous utilisons un flux Kanban pour gérer le développement.
+
 🧱 Structure du Projet
 Plaintext
 /src
  ├── components/     # Composants atomiques (UI)
- ├── pages/          # Pages Next.js et routing
+ ├── pages/          # Pages Next.js et routingß
  ├── hooks/          # Logique React réutilisable
  ├── services/       # Clients API (Supabase, Firebase)
  ├── styles/         # Thème global et Tailwind
