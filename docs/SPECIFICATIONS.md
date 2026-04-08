@@ -58,7 +58,6 @@ Administrateur (Owner) : Celui qui a créé la "maison" sur l'app et gère les m
 Système (laconic) : Gère les calculs automatiques et les notifications.
 
 📝 Premières User Stories (Sprint 1)
-Une User Story suit toujours le format : "En tant que [rôle], je veux [action] afin de [bénéfice]."
 
 Thème 1 : Gestion de la Colocation & Accès
 
@@ -83,6 +82,7 @@ US.7 : En tant que Colocataire, je veux déclarer une tâche comme terminée afi
 US.8 : En tant que Système, je veux envoyer une notification de rappel afin que personne n'oublie de sortir les poubelles le jour J.
 
 Thème 4 : Gestion des Espaces & Ressources (Booking)
+
 L'objectif ici est d'éviter les "embouteillages" dans la maison.
 
 US.9 : En tant que Colocataire, je veux voir la disponibilité d'un espace commun (salon, cuisine, buanderie) sur un calendrier partagé afin de planifier mes activités.
@@ -128,6 +128,7 @@ erDiagram
 Logic Debt : Une table pivot Debts lie l'initiateur de la dépense et les bénéficiaires pour permettre un historique immuable.
 
 6. UX / UI & Design System
+
 Mobile-First : L'application sera utilisée à 90% sur smartphone (dans la cuisine, au supermarché).
 
 Accessibilité : Respect des normes WCAG (contrastes, tailles de police).
@@ -135,6 +136,7 @@ Accessibilité : Respect des normes WCAG (contrastes, tailles de police).
 Feedback Visuel : Squelettes de chargement (Skeletons) et Toasts de confirmation.
 
 7. Sécurité & Conformité
+
 Authentification : JWT avec Refresh Tokens ou intégration Clerk/Supabase Auth.
 
 RGPD : Fonction "Exporter mes données" et "Supprimer mon compte". Chiffrement des mots de passe via Argon2/BCrypt.

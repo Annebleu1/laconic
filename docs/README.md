@@ -91,7 +91,7 @@ Exemple : feat(chores): add automated points redistribution system
 Plaintext
 /src
  ├── components/     # Composants atomiques (UI)
- ├── pages/          # Pages Next.js et routingß
+ ├── pages/          # Pages Next.js et routing
  ├── hooks/          # Logique React réutilisable
  ├── services/       # Clients API (Supabase, Firebase)
  ├── styles/         # Thème global et Tailwind
