@@ -16,5 +16,6 @@ Le projet est géré via un tableau de bord divisé en 5 colonnes :
 * **Communication** : Discussions itératives pour définir les specs avant chaque phase de code.
 * **Validation** : Toute nouvelle fonctionnalité doit passer le pipeline GitHub Actions (Lint, Test, Docker Build).
 
+
 ## 🪵 Gestion des Commits
 Nous suivons la convention **Angular/Conventional Commits** pour garantir un historique clair et permettre la génération automatique de changelogs.
